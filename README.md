@@ -1,8 +1,6 @@
 # Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
 
 
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
-
 This repository contains code for Portfolio website created using NextJs. <br />
 
 For Demo and Final Code checkout following link👇: <br />
