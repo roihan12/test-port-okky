@@ -5,8 +5,8 @@ This repository contains code for Portfolio website created using NextJs. <br />
 For Demo following link👇: <br />
 [Nextjs Portfolio Website](https://next-js-portfolio-chi-ten.vercel.app) <br />
 
-For starter code following this link👇:.
-[Starter-code Nextjs Portfolio ](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code) <br />
+For starter code following this link👇:<br />
+[Starter-code Nextjs Portfolio ] (https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code) <br />
 
 ### Images of The Portfolio Website:
 
