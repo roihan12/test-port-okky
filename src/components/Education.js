@@ -53,22 +53,13 @@ const Education = () => {
         />
         <ul className=" w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor Of Science In Computer Science"
-            companyLink="www.google.com"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            type="Informatics Engineering undergraduate student"
+            companyLink="https://gunadarma.ac.id/"
+            time="2019-2023"
+            place="Gunadarma University (UG)"
+            info="studied informatics engineering for 4 years at Gunadarma University."
           />
 
-          <Details
-            type="Bachelor Of Science In Computer Science"
-            companyLink="www.google.com"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
-          />
         </ul>
       </motion.div>
     </div>

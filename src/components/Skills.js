@@ -30,14 +30,15 @@ const Skills = () => {
           Web
         </motion.div>
 
-        <Skill name="HTML" x="-20vw" y="2vw" />
+        <Skill name="Cypess" x="-20vw" y="2vw" />
         <Skill name="CSS" x="-14vw" y="-8.5vw" />
         <Skill name="Javascript" x="20vw" y="6vw" />
         <Skill name="Python" x="0vw" y="12vw" />
-        <Skill name="VueJS" x="0vw" y="-16vw" />
-        <Skill name="Golang" x="-20vw" y="-15vw" />
+        <Skill name="NodeJS" x="0vw" y="-16vw" />
+        <Skill name="SQL" x="-20vw" y="-15vw" />
         <Skill name="PHP" x="15vw" y="-8vw" />
-        <Skill name="ReactJS" x="15vw" y="-16vw" />
+        <Skill name="CodeIgniter" x="15vw" y="-16vw" />
+        <Skill name="HTML" x="25vw" y="-20vw" />
       </div>
     </>
   );

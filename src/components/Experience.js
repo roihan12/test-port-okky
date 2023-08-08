@@ -57,35 +57,16 @@ const Experience = () => {
         />
         <ul className=" w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+            position="Asistant Integrated Laboratory (iLab)"
+            company="Gunadarma University"
+            companyLink="https://gunadarma.ac.id/"
+            time="2021-2023"
+            address="Depok, Indonesia"
+            work="Work with the team as a module division to create practicum modules, 
+            create practicum questions and coding in various programming languages, 
+            and carry out tests on the questions and coding."
           />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
-          />
+          
         </ul>
       </motion.div>
     </div>

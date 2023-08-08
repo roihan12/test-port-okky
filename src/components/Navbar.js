@@ -4,10 +4,10 @@ import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
   TwitterIcon,
-  DribbbleIcon,
+  
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
+  
   SunIcon,
   MoonIcon,
 } from "./Icons";
@@ -102,7 +102,7 @@ const Navbar = () => {
         </nav>
         <nav className=" flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://twitter.com"
+            href="https://twitter.com/MuhammadOkkyIr1"
             target="{_blank}"
             whileHover={{
               y: -2,
@@ -113,7 +113,7 @@ const Navbar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://github.com/okky2112"
             target="{_blank}"
             whileHover={{
               y: -2,
@@ -124,7 +124,7 @@ const Navbar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/in/muhammad-okky-irawan/"
             target="{_blank}"
             whileHover={{
               y: -2,
@@ -134,28 +134,7 @@ const Navbar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a
-            href="https://twitter.com"
-            target="{_blank}"
-            whileHover={{
-              y: -2,
-            }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3 bg-light rounded-full"
-          >
-            <PinterestIcon />
-          </motion.a>
-          <motion.a
-            href="https://twitter.com"
-            target="{_blank}"
-            whileHover={{
-              y: -2,
-            }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 ml-3"
-          >
-            <DribbbleIcon />
-          </motion.a>
+        
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -206,7 +185,7 @@ const Navbar = () => {
           </nav>
           <nav className=" flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://twitter.com"
+              href="https://twitter.com/MuhammadOkkyIr1"
               target="{_blank}"
               whileHover={{
                 y: -2,
@@ -217,7 +196,7 @@ const Navbar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://github.com/okky2112"
               target="{_blank}"
               whileHover={{
                 y: -2,
@@ -228,7 +207,7 @@ const Navbar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://www.linkedin.com/in/muhammad-okky-irawan/"
               target="{_blank}"
               whileHover={{
                 y: -2,
@@ -238,28 +217,7 @@ const Navbar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
-              href="https://twitter.com"
-              target="{_blank}"
-              whileHover={{
-                y: -2,
-              }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 bg-light rounded-full sm:mx-1"
-            >
-              <PinterestIcon />
-            </motion.a>
-            <motion.a
-              href="https://twitter.com"
-              target="{_blank}"
-              whileHover={{
-                y: -2,
-              }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3 sm:mx-1"
-            >
-              <DribbbleIcon />
-            </motion.a>
+            
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}

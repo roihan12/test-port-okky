@@ -22,7 +22,7 @@ const Logo = () => {
           transition: { duration: 1, repeat: Infinity },
         }}
       >
-        RS
+        MOI
       </MontionLink>
     </div>
   );

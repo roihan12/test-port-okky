@@ -15,15 +15,15 @@ const Footer = () => {
           </span>
           by&nbsp;
           <Link
-            href={"https://linkedin.com"}
+            href={"https://www.instagram.com/muh.okky/"}
             target={"_blank"}
             className="underline underline-offset-2"
           >
-            Roihan Sori
+            Muhammad Okky Irawan
           </Link>
         </div>
         <Link
-          href={"mailto:roihansori12@gmail.com"}
+          href={"mailto:okky2112@gmail.com"}
           target={"_blank"}
           className="underline underline-offset-2"
         >

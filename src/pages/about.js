@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
+import profilePic from "../../public/images/profile/pp-okky.jpeg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
@@ -36,7 +36,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Roihan Sori | About Page</title>
+        <title>Muhammad Okky Irawan | About Page</title>
         <meta name="description" content="any description" />
       </Head>
 
@@ -45,7 +45,7 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="About Me"
             classname="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -54,23 +54,26 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&#39;m CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients visions to life.
+              I am an 8th semester student at Gunadarma University 
+              majoring in informatics engineering with great passion 
+              for a career in IT to become a Quality Assurance Engineer.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty it&#39;s about solving problems and creating intuitive,
-                enjoyable experiences for users.
+              During college, I actively had experience as a lab assistant 
+              in one of the campus labs, namely iLab (Integrated Laboratory) 
+              at Gunadarma University for 3 years. The division that I took is 
+              the module division, which has the responsibility of making practicum 
+              modules, making practicum questions and coding in various programming 
+              languages, and testing the questions and coding. The skill that I have 
+              to become a Quality Assurance person is that I have several portfolios 
+              that I make myself, namely manual and automated testing
               </p>
               <p className="font-medium">
-                Whether I&#39;m working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+              I have analytical, problem solving, communicative, thoroughness and detail, 
+              team collaboration, innovative, and high curiosity skills. Currently I want 
+              to find opportunities and experiences to contribute more in the field of 
+              Quality Assurance manuals and website automation so that I can apply my 
+              knowledge and interests.
               </p>
             </div>
 
@@ -88,7 +91,7 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3 2xl:mx-16 md:mx-0">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={50} />+
+                  <AnimatedNumbers value={51} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   satisfied clients
@@ -97,7 +100,7 @@ const about = () => {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={40} />+
+                  <AnimatedNumbers value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   project completed
